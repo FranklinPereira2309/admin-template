@@ -16,7 +16,7 @@ export default function Cabecalho(props: CabecalhoProps) {
             <Titulo titulo={props.titulo} subtitulo={props.subtitulo}/>
             <div className={`flex items-center flex-grow justify-end`}>
                 <BotaoAlternarTema tema={tema} alternarTema={alternarTema}/>
-                <AvatarUsuario className="ml-3"/>
+                <AvatarUsuario />
             </div>
             
             

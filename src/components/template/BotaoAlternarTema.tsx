@@ -8,7 +8,7 @@ interface BotaoAlternarTemaProps {
 export default function BotaoAlternarTema(props: BotaoAlternarTemaProps) {
     return props.tema === 'dark' ? (
         <div onClick={props.alternarTema} className={`
-        hidden sm:flex cursor-pointer text-black items-center  bg-gradient-to-r from-yellow-300 to-yellow-600 w-14 lg:w-24 h-8 p-1 rounded-full
+        hidden sm:flex cursor-pointer text-black items-center  bg-gradient-to-r from-yellow-300 to-yellow-600 w-14 lg:w-24 h-8 p-1 rounded-full mr-3
         `}>
             <div className={`flex items-center justify-center bg-white text-yellow-600 w-5 h-5 rounded-full `}>
                 {IconeSol}
@@ -21,7 +21,7 @@ export default function BotaoAlternarTema(props: BotaoAlternarTemaProps) {
         </div>
     ) : (
         <div onClick={props.alternarTema} className={`
-        hidden sm:flex cursor-pointer text-black items-center justify-end bg-gradient-to-r from-gray-500 to-gray-900 w-14 lg:w-24 h-8 p-1 rounded-full
+        hidden sm:flex cursor-pointer text-black items-center justify-end bg-gradient-to-r from-gray-500 to-gray-900 w-14 lg:w-24 h-8 p-1 rounded-full mr-3
         `}>
             <div className={`
                 hidden lg:flex items-center mr-2 text-gray-300 
